@@ -1,0 +1,536 @@
+@media only screen and (max-width:1540px){
+	.intial-row .leftCol .textBox {
+		max-width: 400px;
+	}
+	.loginLogo {
+		max-width: 155px;
+	}
+	.loginHeading {
+		font-size: 26px;
+	}
+	.routeLink {
+		padding-bottom: 20px;
+	}
+	aside {
+		max-width: 275px;
+	}
+	.mainContent {
+		width: calc(100% - 275px);
+		padding: 0px 25px 0px 25px;
+	}
+	.genSec {
+		padding: 20px 0px 20px 20px;
+		min-height: 100vh;
+	}
+	.headerMain {
+		padding: 15px 20px 15px 20px;
+	}
+	.navigation {
+		padding: 30px 20px;
+		padding-bottom: 200px;
+	}
+	.secLogo img {
+		max-width: 125px;
+		margin-bottom: 40px;
+	}
+	.profileimgMain {
+		max-width: 80px;
+	}
+	.profileimgMain img {
+		width: 80px;
+		height: 80px;
+	}
+	.editProfile {
+		font-size: 13px;
+		width: 26px;
+		height: 26px;
+	}
+	.name1 {
+		font-size: 20px;
+	}
+	.navItem {
+		height: 45px;
+	}
+	.navIcon img {
+		max-width: 16px;
+		transition: all 0.25s;
+	}
+	.genRow1 .col-12 {
+		width: 410px;
+	}
+	.tagAbs {
+		font-size: 20px;
+		width: 40px;
+		height: 40px;;
+	}
+	.catTabs .nav-link {
+		font-size: 20px;
+	}
+	.formInput1 {
+		font-size: 18px;
+	}
+
+	.addMoreBtn2 {
+		font-size: 20px;
+	}
+	.ddl-input {
+		font-size: 20px;
+	}
+	.aside.active .responsoveLogo {
+		max-width: 60px!important;
+	}
+	.chatName {
+		font-size: 20px;
+	}
+	.chatList {
+		max-width: 380px;
+		padding: 20px 20px;
+	}
+	.chatContent {
+		width: calc(100% - 380px)!important;
+	}
+	.chatItem .textMessage {
+		font-size: 16px;
+	}
+	.chatWrap {
+		padding: 25px;
+	}
+	.genBox .amount {
+		font-size: 45px;
+	}
+	.sideToggle, .chatToggle {
+		width: 45px;
+		height: 45px;
+	}
+	.sideToggle img, .chatToggle img {
+		max-width: 22px;
+	}
+}
+@media only screen and (max-width:1440px){
+	.productsRow .col-lg-3 {
+		width: 33.3%;
+	}
+	.productCard {
+		margin-bottom: 15px;
+	}
+	.inputIcon {
+		width: 18px;
+		height: 18px;
+	}
+	
+}
+@media only screen and (max-width:1366px){
+	.aside.active {
+		max-width: 75px;
+	}
+	.mainContent.active {
+		width: calc(100% - 75px);
+	}
+	.subsCard .heading {
+		font-size: 30px;
+	}
+	.subHeading {
+		font-size: 22px;
+	}
+	.subsCard {
+		padding: 40px 32px 60px 32px;
+		margin-bottom: 60px;
+	}
+	.subsBtn {
+		font-size: 22px;
+		max-width: 265px;
+		height: 60px;
+		bottom: -30px;
+	}
+	.subsCard .desc {
+		font-size: 15px;
+	}
+	.uploadImg {
+		width: 300px;
+		height: 300px;
+	}
+	.uploadImg img {
+		max-width: 40px;
+	}
+	.addnewForm .formFields {
+		width: calc(100% - 340px);
+	}
+}
+@media only screen and (max-width:1280px){
+	.subsBtn {
+		max-width: 215px;
+	}
+}
+@media only screen and (max-width:1024px){
+	.sideToggle {
+		display: none;
+	}
+	.topActions {
+		max-width: 100%;
+	}
+	.genSec {
+		padding: 10px;
+		min-height: 100vh;
+	}
+	.genRow1 .col-12 {
+		width: 350px;
+	}
+	.chatList {
+		position: fixed;
+		top: 0;
+		left: -380px;
+		background: #fff;
+		z-index: 9999;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		border-radius: 0;
+		transition: all 0.25s;
+		padding: 20px 10px;
+	}
+	.chatList.active {
+		left: 0;
+	}
+	.chatContent {
+		width: 100%!important;
+		padding: 0px 15px 0px 15px;
+	}
+	.chatActions {
+		max-width: 100%;
+	}
+	.memToggle {
+		display: flex;
+	}
+	.chatToggle {
+		display: none;
+	}
+}
+@media only screen and (max-width:991px){
+	.intial-row .leftCol {
+		width: 100%;
+	}
+	.intial-row .rightCol {
+		display: none;
+	}
+	.genBox {
+		height: 230px;
+	}
+	.genRow1 .col-12 {
+		width: 260px;
+	}
+	.genBox .amount {
+		font-size: 40px;
+		padding-bottom: 20px;
+	}
+	.genBox .desc {
+		font-size: 20px;
+	}
+	.catTabs .nav-link {
+		margin-bottom: 15px;
+	}
+	.tagAbs {
+		font-size: 15px;
+		width: 31px;
+		height: 31px;
+	}
+	.heading {
+		font-size: 30px;
+	}
+	.profileForm {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.profileForm .formFields {
+		padding-left: 0;
+		padding-top: 35px;
+	}
+	.passwordField {
+		max-width: 400px;
+	}
+}
+@media only screen and (max-width:767px){
+	.inputIcon {
+		width: 18px;
+		height: 18px;
+		left: 20px;
+	}
+	.genBtn {
+		font-size: 18px;
+		height: 60px;
+	}
+	.subsBtn {
+		max-width: 180px;
+	}
+	.addMoreBtn2 {
+		height: 70px;
+		margin-bottom: 12px;
+	}
+	.addnewBtn2 {
+		height: 70px;
+	}
+	.timerBox .desc {
+		font-size: 20px;
+	}
+	.timerBox i {
+		font-size: 50px;
+	}
+	.loginDesc {
+		font-size: 25px;
+	}
+	.socialLogin {
+		max-width: 195px;
+	}
+	.routeLink {
+		font-size: 18px;
+	}
+	.genBox {
+		margin-bottom: 15px;
+	}
+	.genRow1 {
+		padding-bottom: 10px;
+	}
+	.catTabs .nav-link {
+		font-size: 15px;
+		height: 45px;
+	}
+	.mainContent {
+		padding: 0px 0 0px 25px;
+	}
+	.productsRow .col-lg-3 {
+		width: 50%;
+	}
+	.addnewForm {
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: center;
+	}
+	.addnewForm .formFields {
+		width: 100%;
+		padding-top: 40px;
+	}
+}
+@media only screen and (max-width:575px){
+	.aside.active .responsoveLogo {
+		max-width: 45px!important;
+	}
+	.userIcon1 img {
+		max-width: 22px;
+	}
+	.aside.active .navItem {
+		max-width: 30px;
+		height: 30px;
+	}
+	.navIcon img {
+		max-width: 15px;
+	}
+	.aside.active {
+		max-width: 50px;
+		border-radius: 8px;
+	}
+	.mainContent.active {
+		width: calc(100% - 50px);
+		padding: 0px 12px 40px 12px;
+	}
+	.logoutBtn {
+		padding: 15px 10px;
+	}
+	.logoutBtn img {
+		max-width: 22px;
+	}
+	.actonIcon {
+		width: 36px;
+		height: 36px;
+	}
+	.searchGroup {
+		max-width: 36px;
+	}
+	.searchInput {
+		font-size: 13px;
+		padding-left: 15px;
+		height: 36px;
+	}
+	.actonIcon img {
+		max-width: 16px;
+	}
+	.searchGroup.active .searchInput {
+		padding-right: 35px;
+	}
+	.actonIcon {
+		margin-left: 5px;
+	}
+	.searchGroup.active {
+		max-width: 130px;
+	}
+	.headerMain {
+		margin-bottom: 15px;
+	}
+	.tagAbs {
+		font-size: 16px;
+		width: 30px;
+		height: 30px;
+	}
+	.productsRow .col-lg-3 {
+		width: 100%;
+	}
+	.productCard .textBox .heading {
+		font-size: 22px;
+	}
+	.productCard .textBox .desc {
+		font-size: 15px;
+	}
+	.productCard .textBox .qty {
+		font-size: 18px;
+	}
+	.priceTag {
+		font-size: 16px;
+	}
+	.editCard {
+		width: 32px;
+		height: 32px;
+		font-size: 16px;
+	}
+	.productCard .imgbox {
+		height: 150px;
+	}
+	.productsRow {
+		padding-top: 0!important;
+	}
+	.categoryWrap {
+		padding-bottom: 20px!important;
+	}
+	.subsCard {
+		padding: 40px 20px 40px 20px;
+	}
+	.uploadImg {
+		width: 150px;
+		height: 150px;
+	}
+	.formInput1 {
+		height: 55px;
+	}
+	.form-group2 {
+		height: 55px;
+	}
+	.ddl-input {
+		font-size: 16px;
+		height: 55px;
+	}
+	.ddl .ddl-options > div {
+		padding: 10px;
+		font-size: 18px;
+	}
+	.ddl .ddl-options {
+		border-radius: 20px;
+	}
+	.addMoreBtn2 {
+		height: 60px;
+	}
+	.addnewBtn2 {
+		height: 60px;
+	}
+	.ddl::before {
+		top: 30px;
+	}
+	.ddl::after {
+		top: 30px;
+	}
+	.fbiCon {
+		width: 10px!important;
+	}
+	.profileForm {
+		padding-top: 20px!important;
+	}
+	.passwordField {
+		padding-top: 20px!important;
+	}
+	.profileTabs .nav-item {
+		width: 100%!important;
+	}
+	.chatPersonImg {
+		max-width: 25px;
+	}
+	.chatPersonImg img {
+		width: 25px;
+		height: 25px;
+	}
+	.chatName {
+		font-size: 16px;
+		padding-left: 10px;
+	}
+	.chatList {
+		max-width: 240px;
+	}
+	.chatItem .textMessage {
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.chatContent {
+		padding: 0;
+	}
+	.genRow1 .col-12 {
+		width: 100%;
+	}
+	.typeMessage {
+		font-size: 16px;
+		height: 55px;
+		padding-top: 15px;
+	}
+	.sendBtn2 {
+		width: 55px;
+		height: 55px;
+	}
+	.sendBtn2 img {
+		max-width: 18px;
+	}
+	.chatWrap {
+		padding: 15px 10px;
+	}
+	.msgCounts {
+		font-size: 12px;
+		width: 20px;
+		height: 20px;
+	}
+	.inputItemMain {
+		font-size: 16px;
+	}
+	.subsCard .desc {
+		font-size: 14px;
+		height: 350px;
+		overflow: auto;
+	}
+	.chatHeader .chatPersonImg {
+		max-width: 40px;
+	}
+	.chatHeader .chatPersonImg img {
+		width: 40px;
+		height: 40px;
+	}
+	.chatHeader .chatName {
+		font-size: 20px;
+	}
+	.chatList ul {
+		max-height: 500px;
+		overflow-y: auto;
+	}
+	.avatar-upload {
+		max-width: 150px;
+		max-height: 150px;
+	}
+	.avatar-upload .avatar-preview {
+		width: 150px;
+		height: 150px;
+	}
+	.avatar-upload .avatar-edit input + label {
+		width: 40px;
+		height: 40px;
+	}
+	.avatar-upload .avatar-edit input + label img {
+		max-width: 20px;
+	}
+	.chatItem .chatHead .info1 .name {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width:340px){
+	.searchGroup.active {
+		max-width: 105px;
+	}
+}
